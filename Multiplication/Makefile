@@ -2,7 +2,7 @@ CC 	= gcc
 OBJS 	= exo1.o
 CFLAGS 	= -c -Wall -ansi -pedantic -g
 LDFLAGS =
-PGM 	= exo
+PGM 	= exo1
 
 all: $(PGM)
 
