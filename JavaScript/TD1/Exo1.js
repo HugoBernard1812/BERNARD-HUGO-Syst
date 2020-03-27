@@ -56,3 +56,8 @@ function recursif(x = 1, n = 1) {
  }
  return x;
 }
+
+function creerMultiplicateur(x = 1, n = 1){
+  x = x*n;
+  return x;
+}
