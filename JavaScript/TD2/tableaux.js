@@ -1,20 +1,18 @@
-let x;
-let y;
-let n;
-
 function range(a=1,b = 0) {
-  var x;
-  for (var x = a; a<=b; x++){
-    return x;
+  if(a>b)
+  let t = [b,a];
+  else t = [a,b];
+  console.log(t);
   }
-}
 
-function min(x,y){
-  if (x<y){
-  let resultat = `min : x = ${x}`;
-  return resultat;
-  }else {
-  let resultat = `min : y = ${y}`;
-  return resultat;
+
+function sumReduce(...args){
+  let t = [args] ;
+  let sum = ( acc, elem ) => acc + elem ;
+  let result = t.reduce(sum, 0) ;
+  console.log(result) ;
   }
+
+function tablau(...args){
+  
 }
